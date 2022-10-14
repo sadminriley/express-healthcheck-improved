@@ -1,21 +1,21 @@
 {
-  "name": "express-healthcheck",
+  "name": "express-healthcheck-improved",
   "version": "0.1.0",
-  "description": "Super-simple healthcheck middleware for express",
+  "description": "Super-simple healthcheck middleware for express, but improved with a UTC formatted time output.",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lennym/express-healthcheck.git"
+    "url": "https://github.com/sadminriley/express-healthcheck-improved.git"
   },
-  "author": "Leonard Martin",
+  "author": "Leonard Martin, Riley Louvier",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lennym/express-healthcheck/issues"
+    "url": "https://github.com/sadminriley/express-healthcheck-improved/issues"
   },
-  "homepage": "https://github.com/lennym/express-healthcheck",
+  "homepage": "https://github.com/sadminriley/express-healthcheck-improved",
   "devDependencies": {
     "chai": "^1.10.0",
     "express": "^4.13.4",
