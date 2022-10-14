@@ -16,7 +16,7 @@ npm install express-healthcheck-improved
 app.use('/healthcheck', require('express-healthcheck-improved')());
 ```
 
-This will respond with a JSON payload of `{ "uptime": [uptime in UTC formatted output }` and a 200 status code.
+This will respond with a JSON payload of `{ "uptime": [uptime in UTC formatted output] }` and a 200 status code.
 
 The healthy response can be customised by passing in a custom `healthy` method.
 
